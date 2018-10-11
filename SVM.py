@@ -2,8 +2,8 @@ from sklearn import svm
 import DC
 
 if __name__ == '__main__':
-    stock = '002049.SZ'
-    dc = DC.data_collect(stock, '2017-03-01', '2018-03-01')
+    stock = 'A'
+    dc = DC.data_collect(stock, '2018-05-10', '2018-09-11')
     train = dc.data_train
     target = dc.data_target
     test_case = [dc.test_case]
